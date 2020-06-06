@@ -1,0 +1,68 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: url('../images/login_bg.jpg') no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+/* logo 区域 */
+
+#logo {
+    height: 60px;
+    background: url('/assets/images/logo.png') no-repeat;
+    margin: 20px 0 0 88px;
+}
+
+/* 注册和登录区域 */
+
+#login, #register {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 310px;
+    background-color: #fff;
+}
+
+#login .title {
+    height: 60px;
+    background: url('/assets/images/login_title.png') no-repeat center center;
+}
+
+form {
+    margin: 0 25px;
+}
+
+.go_reg, .go_login {
+    float: right;
+}
+
+.layui-form-item {
+    position: relative;
+}
+
+.layui-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.layui-input {
+    padding-left: 30px;
+}
+
+/* 注册 */
+
+#register {
+    display: none;
+}
+
+#register .title {
+    height: 60px;
+    background: url('/assets/images/login_title.png') no-repeat center center;
+}
