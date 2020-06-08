@@ -59,13 +59,14 @@ $(function () {
         })
     });
 
+
     // 表单验证
 
     // 加载form模块
     var form = layui.form;
     // 调用form.verify()方法
     form.verify({
-        len: [/^[\S]{6,12}$/, '密码长度不对'],
+        len: [/^[\S]{6,12}$/, '密码长度不对']
         // len: function (val) {
         //     if (val.trim().length < 6 || val.trim().length > 12) {
         //         return "密码不对"
